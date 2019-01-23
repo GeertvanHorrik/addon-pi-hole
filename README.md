@@ -34,7 +34,7 @@ comparison to installing any other Hass.io add-on.
 
 **NOTE 1**: Your Hass.io machine MUST HAVE a static IP (not DHCP reserved, but static) for this add-on to function
 properly/fully.
-**NOTE 2**: Since Pi-hole will act as DNS server on your entire local network, you will need to make sure that Hass.io points to a different DNS server (e.g. a public one) to prevent loops (for example, to prevent `NewConnectionError` errors). For more details, see the [Hass.io docs][hass-io-docs-nework]. Bottom-line: make sure it doesn't point to itself as DNS server.
+**NOTE 2**: Since Pi-hole will act as DNS server on your entire local network, you will need to make sure that Hass.io points to a different DNS server (e.g. a public one) to prevent loops (for example, to prevent `NewConnectionError` errors). For more details, see the [Hass.io docs][hass-io-docs-network]. Bottom-line: make sure it doesn't point to itself as DNS server.
 
 1. [Add our Hass.io add-ons repository][repository] to your Hass.io instance.
 1. Install the "Pi-hole" add-on
@@ -399,7 +399,7 @@ SOFTWARE.
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/community-hass-io-add-on-pi-hole/33817?u=frenck
 [frenck]: https://github.com/frenck
-[hass-io-docs-nework]: https://github.com/home-assistant/hassos/blob/dev/Documentation/network.md
+[hass-io-docs-network]: https://github.com/home-assistant/hassos/blob/dev/Documentation/network.md
 [gitlabci-shield]: https://gitlab.com/hassio-addons/addon-pi-hole/badges/master/pipeline.svg
 [gitlabci]: https://gitlab.com/hassio-addons/addon-pi-hole/pipelines
 [i386-arch-shield]: https://img.shields.io/badge/architecture-i386-blue.svg
